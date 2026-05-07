@@ -1,4 +1,4 @@
-# Ajedrez con Pygame — Laboratorio 04
+# ♟️ Ajedrez con Pygame — Laboratorio 04
 
 ## Integrantes
 - Karolay
@@ -82,14 +82,17 @@ DAW_MAINN/
 │   ├── img/
 │   └── venv/
 └── README.md
-Requisitos
-Python 3.11 o superior compatible
-pip
-pygame
-entorno virtual venv
-Cómo ejecutar el proyecto
 
-## 1. Activar el entorno virtual
+```
+
+## Requisitos
+- Python 3.11 o superior compatible
+- pip
+- pygame
+- entorno virtual venv
+- Cómo ejecutar el proyecto
+- 
+# 1. Activar el entorno virtual
 
 En Windows (PowerShell):
 
@@ -98,7 +101,7 @@ En Windows (PowerShell):
 En Git Bash:
 
 source venv/Scripts/activate
-2. Instalar dependencias
+# 2. Instalar dependencias
 
 Si el proyecto usa requirements.txt:
 
@@ -107,91 +110,79 @@ pip install -r requirements.txt
 Si solo necesitas instalar pygame:
 
 pip install pygame
-3. Ejecutar un ejercicio
+# 3. Ejecutar un ejercicio
 
 Cada archivo Ejercicio2x.py se ejecuta por separado.
 
-Ejemplo:
+- python Ejercicio2a.py
+- python Ejercicio2b.py
+- python Ejercicio2c.py
+- python Ejercicio2d.py
+- python Ejercicio2e.py
+- python Ejercicio2f.py
+- python Ejercicio2g.py
+- python Ejercicio2h.py
+- python Ejercicio2i.py
 
-python Ejercicio2a.py
-
-Luego puedes probar los demás:
-
-python Ejercicio2b.py
-python Ejercicio2c.py
-python Ejercicio2d.py
-python Ejercicio2e.py
-python Ejercicio2f.py
-python Ejercicio2g.py
-python Ejercicio2h.py
-python Ejercicio2i.py
-Métodos más importantes de Picture
-negative()
+## Métodos de Picture
+# negative()
 
 Convierte la figura en su negativo, cambiando cada color por su inverso.
 
-join()
+# join()
 
 Une dos figuras horizontalmente, una al lado de la otra.
 
-up()
+# up()
 
 Coloca una figura encima de otra.
 
-under()
+# under()
 
 Superpone una figura sobre otra, respetando los espacios vacíos.
 
-horizontalRepeat(n)
+# horizontalRepeat(n)
 
 Repite una figura varias veces al costado.
 
-verticalRepeat(n)
+# verticalRepeat(n)
 
 Repite una figura varias veces hacia abajo.
 
-verticalMirror()
+# verticalMirror()
 
 Invierte cada fila de la figura.
 
-horizontalMirror()
+# horizontalMirror()
 
 Invierte el orden de las filas de la figura.
 
-Ejercicios desarrollados
+## Ejercicios desarrollados
 
 En el laboratorio se trabajaron ejercicios progresivos que permitieron comprobar el funcionamiento de los métodos implementados.
 
-Ejercicio 2.a: composición de caballos alternando colores.
-Ejercicio 2.b: uso de verticalMirror() sobre la composición de caballos.
-Ejercicio 2.c: repetición horizontal de la reina.
-Ejercicio 2.d: franja alternada de casillas.
-Ejercicio 2.e: variación del patrón anterior invirtiendo el orden.
-Ejercicio 2.f: construcción de una figura más grande con varias filas.
-Ejercicio 2.g: armado del tablero completo de ajedrez.
-Ejercicio 2.h: representación de la Apertura Italiana.
-Ejercicio 2.i: representación de la Apertura Escocesa.
-Fragmentos importantes del código
-Ejemplo de uso de negative(), join() y up()
-dibujo = knight.negative().join(knight).up(knight.join(knight.negative()))
-Ejemplo de uso de horizontalRepeat()
-draw(queen.horizontalRepeat(4))
-Ejemplo de construcción del tablero
-tablero = square.negative().up(square).join(square.up(square.negative())).horizontalRepeat(4).verticalRepeat(4)
-Evidencia
+# Ejercicio 2.a: composición de caballos alternando colores.
+# Ejercicio 2.b: uso de verticalMirror() sobre la composición de caballos.
+# Ejercicio 2.c: repetición horizontal de la reina.
+# Ejercicio 2.d: franja alternada de casillas.
+# Ejercicio 2.e: variación del patrón anterior invirtiendo el orden.
+# Ejercicio 2.f: construcción de una figura más grande con varias filas.
+# Ejercicio 2.g: armado del tablero completo de ajedrez.
+# Ejercicio 2.h: representación de la Apertura Italiana.
+# Ejercicio 2.i: representación de la Apertura Escocesa.
 
-En la carpeta img/ se encuentran las capturas del código y de los resultados obtenidos en cada ejercicio.
 
-Video de demostración
+
+## Video de demostración
 
 https://drive.google.com/file/d/1P8eGzdGdpn36iFGAgrOZVLzTaP1Gjrxc/view?usp=sharing
 
 Repositorio GitHub
 
-Repositorio del proyecto:
+## Repositorio del proyecto:
 https://github.com/bvelasquezp-BrigitteKarolay/lab04_daw.git
 
-Conclusiones
+## Conclusiones
 
 Este laboratorio permitió comprender mejor cómo una imagen puede representarse internamente como una estructura de datos y cómo, a partir de esa base, se pueden construir nuevas figuras mediante programación.
 
@@ -209,4 +200,6 @@ https://edwardo2013.github.io/CCOM_labs_python/LABS/ciclos.html
 https://www.w3schools.com/python/python_functions.asp
 https://www.w3schools.com/python/python_classes.asp
 https://www.geeksforgeeks.org/python/pygame-tutorial/
+
+
 
