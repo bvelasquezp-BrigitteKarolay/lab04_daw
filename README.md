@@ -85,7 +85,7 @@ DAW_MAINN/
 - pygame
 - entorno virtual venv
 - Cómo ejecutar el proyecto
-- 
+
 # 1. Activar el entorno virtual
 
 En Windows (PowerShell):
@@ -119,59 +119,57 @@ Cada archivo Ejercicio2x.py se ejecuta por separado.
 - python Ejercicio2i.py
 
 ## Métodos de Picture
-# negative()
+negative()
 
-Convierte la figura en su negativo, cambiando cada color por su inverso.
+- Convierte la figura en su negativo, cambiando cada color por su inverso.
 
-# join()
+join()
 
-Une dos figuras horizontalmente, una al lado de la otra.
+- Une dos figuras horizontalmente, una al lado de la otra.
 
-# up()
+up()
 
-Coloca una figura encima de otra.
+- Coloca una figura encima de otra.
 
-# under()
+under()
 
-Superpone una figura sobre otra, respetando los espacios vacíos.
+- Superpone una figura sobre otra, respetando los espacios vacíos.
 
-# horizontalRepeat(n)
+horizontalRepeat(n)
 
-Repite una figura varias veces al costado.
+- Repite una figura varias veces al costado.
 
-# verticalRepeat(n)
+verticalRepeat(n)
 
-Repite una figura varias veces hacia abajo.
+- Repite una figura varias veces hacia abajo.
 
-# verticalMirror()
+verticalMirror()
 
-Invierte cada fila de la figura.
+- Invierte cada fila de la figura.
 
-# horizontalMirror()
+horizontalMirror()
 
-Invierte el orden de las filas de la figura.
+- Invierte el orden de las filas de la figura.
 
 ## Ejercicios desarrollados
 
 En el laboratorio se trabajaron ejercicios progresivos que permitieron comprobar el funcionamiento de los métodos implementados.
 
-# Ejercicio 2.a: composición de caballos alternando colores.
-# Ejercicio 2.b: uso de verticalMirror() sobre la composición de caballos.
-# Ejercicio 2.c: repetición horizontal de la reina.
-# Ejercicio 2.d: franja alternada de casillas.
-# Ejercicio 2.e: variación del patrón anterior invirtiendo el orden.
-# Ejercicio 2.f: construcción de una figura más grande con varias filas.
-# Ejercicio 2.g: armado del tablero completo de ajedrez.
-# Ejercicio 2.h: representación de la Apertura Italiana.
-# Ejercicio 2.i: representación de la Apertura Escocesa.
+Ejercicio 2.a: composición de caballos alternando colores.
+Ejercicio 2.b: uso de verticalMirror() sobre la composición de caballos.
+Ejercicio 2.c: repetición horizontal de la reina.
+Ejercicio 2.d: franja alternada de casillas.
+Ejercicio 2.e: variación del patrón anterior invirtiendo el orden.
+Ejercicio 2.f: construcción de una figura más grande con varias filas.
+Ejercicio 2.g: armado del tablero completo de ajedrez.
+Ejercicio 2.h: representación de la Apertura Italiana.
+Ejercicio 2.i: representación de la Apertura Escocesa.
 
 
 
 ## Video de demostración
 
 https://drive.google.com/file/d/1P8eGzdGdpn36iFGAgrOZVLzTaP1Gjrxc/view?usp=sharing
-
-Repositorio GitHub
 
 ## Repositorio del proyecto:
 https://github.com/bvelasquezp-BrigitteKarolay/lab04_daw.git
@@ -185,15 +183,10 @@ También ayudó a reforzar el uso de clases, métodos, listas y ciclos en Python
 Finalmente, fue una práctica útil para desarrollar lógica paso a paso, ya que cada ejercicio se fue construyendo sobre el anterior hasta llegar a composiciones más completas como el tablero de ajedrez y las aperturas solicitadas.
 
 ## Referencias
-https://www.w3schools.com/python/python_reference.asp
-https://docs.python.org/3/tutorial/
-https://virtualenv.pypa.io/en/latest/how-to/usage.html
-https://www.geeksforgeeks.org/python/python-pip/
-https://www.w3schools.com/python/python_lists.asp
-https://edwardo2013.github.io/CCOM_labs_python/LABS/ciclos.html
-https://www.w3schools.com/python/python_functions.asp
-https://www.w3schools.com/python/python_classes.asp
-https://www.geeksforgeeks.org/python/pygame-tutorial/
+- https://www.w3schools.com/python/python_reference.asp
+- https://www.geeksforgeeks.org/python/python-pip/
+- https://edwardo2013.github.io/CCOM_labs_python/LABS/ciclos.html
+- https://docs.python.org/3/tutorial/
 
 
 
