@@ -171,8 +171,6 @@ Ejercicio 2.i: representación de la Apertura Escocesa.
 
 https://drive.google.com/file/d/1P8eGzdGdpn36iFGAgrOZVLzTaP1Gjrxc/view?usp=sharing
 
-Repositorio GitHub
-
 ## Repositorio del proyecto:
 https://github.com/bvelasquezp-BrigitteKarolay/lab04_daw.git
 
@@ -185,10 +183,10 @@ También ayudó a reforzar el uso de clases, métodos, listas y ciclos en Python
 Finalmente, fue una práctica útil para desarrollar lógica paso a paso, ya que cada ejercicio se fue construyendo sobre el anterior hasta llegar a composiciones más completas como el tablero de ajedrez y las aperturas solicitadas.
 
 ## Referencias
-https://www.w3schools.com/python/python_reference.asp
-https://www.geeksforgeeks.org/python/python-pip/
-https://edwardo2013.github.io/CCOM_labs_python/LABS/ciclos.html
-https://docs.python.org/3/tutorial/
+- https://www.w3schools.com/python/python_reference.asp
+- https://www.geeksforgeeks.org/python/python-pip/
+- https://edwardo2013.github.io/CCOM_labs_python/LABS/ciclos.html
+- https://docs.python.org/3/tutorial/
 
 
 
