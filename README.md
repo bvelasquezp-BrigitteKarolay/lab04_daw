@@ -1,90 +1,81 @@
-# Laboratorio 04: Ajedrez con Python
 
-## Integrantes
+# Ajedrez con pygame
+# Integrantes
+
 - Karolay
--  Valeria
+- Valeria
 - Jhonathan
 
 ---
+## Descripcion 
 
-## Descripción del proyecto
+Este proyecto consiste en el desarrollo de una representacion de las distintas piezas que conforman el tablero de ajedrez implementada con Python y la libreria Pygame, que permite presentar el dibujo en pantalla.
 
-Este proyecto implementa la manipulación de imágenes tipo ASCII utilizando listas de strings en Python.  
-Se trabaja con la clase `Picture`, que permite transformar y combinar figuras para construir representaciones como tableros y piezas de ajedrez.
+Se uso el entornovirtual de python para manejar las dependencias del proyecto.
 
-El proyecto utiliza `pygame` para la visualización gráfica.
-
----
-
-## Requisitos
-
-- Python 3.x
-- pip
-- pygame
-
----
-
-## Activación del entorno virtual (venv)
-
-### Crear entorno virtual
-```bash
-python -m venv venv
-````
-
-### Activar en Windows
-
-```bash
-venv\Scripts\activate
+## Estructura del proyecto:
 ```
-
-### Activar en Linux / Mac
-
-```bash
-source venv/bin/activate
+DAW_MAINN/
+├── lab04/
+│   ├── ajedrez/
+│   │   ├── __pycache__/
+│   │   ├── .gitignore
+│   │   ├── chessPictures.py
+│   │   ├── colors.py
+│   │   ├── Ejercicio2a.py
+│   │   ├── Ejercicio2b.py
+│   │   ├── Ejercicio2c.py
+│   │   ├── Ejercicio2d.py
+│   │   ├── Ejercicio2e.py
+│   │   ├── Ejercicio2f.py
+│   │   ├── Ejercicio2g.py
+│   │   ├── Ejercicio2h.py
+│   │   ├── Ejercicio2i.py
+│   │   ├── interpreter.py
+│   │   ├── main.py
+│   │   ├── picture.py
+│   │   └── pieces.py
+│   ├── img/
+│   ├── python_basic/
+│   ├── venv/
+│   └── README.md
+└── venv/
 ```
-
 ---
-
-## Instalación de dependencias
-
-Con el entorno virtual activado:
-
-```bash
-pip install pygame
+## Como ejecutar el proyecto
+### Requisitos:
+* python 3.13 o inferior
+* pip acorde a la version de python
+### Crear entorno virtual:
+* Cree el entorno virtual con el siguiente comando:
 ```
-
+python3 -m venv <nombre del entorno>
+```
+* copie la carpeta ```ajedrez``` y el archivo ```requirements.txt``` dentro de la carpeta creada
+```
+cp -rfv <ruta/a/ajetrez> <ruta/a/requirements.txt> <ruta/a/el/entorno>
+```
 ---
-
-## Ejecución del proyecto
-
-### Ejecutar programa principal
-
-```bash
-python ajedrez/main.py
+### Iniciar entorno virutal
+* Dentro de la carpeta de el entorno, nicie el entorno ejecutando (si esta en una distribucion de linux)
 ```
-
-### Ejecutar ejercicios
-
-```bash
-python ajedrez/Ejercicio2a.py
-python ajedrez/Ejercicio2b.py
-python ajedrez/Ejercicio2c.py
-python ajedrez/Ejercicio2d.py
+source bin/activate
 ```
-
+* O caso este en windows
+```
+Scripts/activate
+```
+* Ahora la linea de comandos deberia ser precedida por el nombre de su entorno
+```
+(Nombre del entorno) Ususario@Maquina:
+```
 ---
-
-## Notas
-
-* Todas las figuras se construyen manipulando el atributo `img` de la clase `Picture`.
-* Las transformaciones incluyen espejos, rotaciones, composición y repetición.
-* La visualización se realiza mediante `pygame`.
-
----
-
-## Conclusión
-
-Este laboratorio permite comprender la construcción de figuras complejas a partir de estructuras simples, aplicando programación orientada a objetos y manipulación de datos en Python.
-
+### Instalacion de dependencias y ejecucion
+* Dento del entorno, ahora descarga instala las dependencias y paquetes del proyecto del requirements.txt con el siguiente comando 
 ```
-
+pip install -r requirements.txt
+```
+* Ahora puedes ejecutar los ejercicios del directorio ajedrez directamente
+```
+python3 ajedrez/Ejercicio2X.py
+```
