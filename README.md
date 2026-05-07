@@ -1,7 +1,8 @@
 # Laboratorio 04: Ajedrez con Python
 
 ## Integrantes
-- Karolay Valeria
+- Karolay
+-  Valeria
 - Jhonathan
 
 ---
