@@ -1,11 +1,10 @@
-# ♟️ Ajedrez con Pygame — Laboratorio 04
+# Laboratorio 04
 
 ## Integrantes
-- Karolay
-- Valeria
-- Jhonathan
+- Lerma Ccopa Jhonatan Javier
+- Velasquez Puma BrigitteKarolay
+- Ticona Nina Valeria Abigai
 
----
 
 ## Descripción del proyecto
 
@@ -14,8 +13,6 @@ Este proyecto fue desarrollado como parte del **Laboratorio 04 de Python**. El o
 Más que construir un ajedrez interactivo completo, el laboratorio se enfocó en **manipular figuras**, combinarlas, invertirlas, repetirlas y reflejarlas, para luego mostrarlas en pantalla con ayuda de `pygame` y del módulo `interpreter`.
 
 También se trabajó con un **entorno virtual (`venv`)** para mantener ordenadas las dependencias del proyecto y facilitar su ejecución.
-
----
 
 ## Lo que se implementó
 
@@ -41,8 +38,6 @@ Estos métodos permitieron construir distintas composiciones visuales a partir d
 - `king`
 - `square`
 
----
-
 ## Idea general del laboratorio
 
 La base del trabajo fue la clase `Picture`, que guarda una imagen como una lista de strings en el atributo `img`.  
@@ -56,7 +51,6 @@ A partir de esa representación interna, se fueron creando nuevas figuras aplica
 
 Eso permitió pasar de figuras simples a composiciones más complejas como tableros y aperturas de ajedrez.
 
----
 
 ## Estructura del proyecto
 
