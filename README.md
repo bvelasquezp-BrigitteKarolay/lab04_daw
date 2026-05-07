@@ -121,35 +121,35 @@ Cada archivo Ejercicio2x.py se ejecuta por separado.
 ## Métodos de Picture
 negative()
 
-Convierte la figura en su negativo, cambiando cada color por su inverso.
+- Convierte la figura en su negativo, cambiando cada color por su inverso.
 
 join()
 
-Une dos figuras horizontalmente, una al lado de la otra.
+- Une dos figuras horizontalmente, una al lado de la otra.
 
 up()
 
-Coloca una figura encima de otra.
+- Coloca una figura encima de otra.
 
 under()
 
-Superpone una figura sobre otra, respetando los espacios vacíos.
+- Superpone una figura sobre otra, respetando los espacios vacíos.
 
 horizontalRepeat(n)
 
-Repite una figura varias veces al costado.
+- Repite una figura varias veces al costado.
 
 verticalRepeat(n)
 
-Repite una figura varias veces hacia abajo.
+- Repite una figura varias veces hacia abajo.
 
 verticalMirror()
 
-Invierte cada fila de la figura.
+- Invierte cada fila de la figura.
 
 horizontalMirror()
 
-Invierte el orden de las filas de la figura.
+- Invierte el orden de las filas de la figura.
 
 ## Ejercicios desarrollados
 
