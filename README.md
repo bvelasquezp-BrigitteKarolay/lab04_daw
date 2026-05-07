@@ -85,7 +85,7 @@ DAW_MAINN/
 - pygame
 - entorno virtual venv
 - Cómo ejecutar el proyecto
-- 
+
 # 1. Activar el entorno virtual
 
 En Windows (PowerShell):
@@ -119,35 +119,35 @@ Cada archivo Ejercicio2x.py se ejecuta por separado.
 - python Ejercicio2i.py
 
 ## Métodos de Picture
-# negative()
+negative()
 
 Convierte la figura en su negativo, cambiando cada color por su inverso.
 
-# join()
+join()
 
 Une dos figuras horizontalmente, una al lado de la otra.
 
-# up()
+up()
 
 Coloca una figura encima de otra.
 
-# under()
+under()
 
 Superpone una figura sobre otra, respetando los espacios vacíos.
 
-# horizontalRepeat(n)
+horizontalRepeat(n)
 
 Repite una figura varias veces al costado.
 
-# verticalRepeat(n)
+verticalRepeat(n)
 
 Repite una figura varias veces hacia abajo.
 
-# verticalMirror()
+verticalMirror()
 
 Invierte cada fila de la figura.
 
-# horizontalMirror()
+horizontalMirror()
 
 Invierte el orden de las filas de la figura.
 
