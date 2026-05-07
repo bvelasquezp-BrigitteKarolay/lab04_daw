@@ -155,15 +155,15 @@ Invierte el orden de las filas de la figura.
 
 En el laboratorio se trabajaron ejercicios progresivos que permitieron comprobar el funcionamiento de los métodos implementados.
 
-# Ejercicio 2.a: composición de caballos alternando colores.
-# Ejercicio 2.b: uso de verticalMirror() sobre la composición de caballos.
-# Ejercicio 2.c: repetición horizontal de la reina.
-# Ejercicio 2.d: franja alternada de casillas.
-# Ejercicio 2.e: variación del patrón anterior invirtiendo el orden.
-# Ejercicio 2.f: construcción de una figura más grande con varias filas.
-# Ejercicio 2.g: armado del tablero completo de ajedrez.
-# Ejercicio 2.h: representación de la Apertura Italiana.
-# Ejercicio 2.i: representación de la Apertura Escocesa.
+Ejercicio 2.a: composición de caballos alternando colores.
+Ejercicio 2.b: uso de verticalMirror() sobre la composición de caballos.
+Ejercicio 2.c: repetición horizontal de la reina.
+Ejercicio 2.d: franja alternada de casillas.
+Ejercicio 2.e: variación del patrón anterior invirtiendo el orden.
+Ejercicio 2.f: construcción de una figura más grande con varias filas.
+Ejercicio 2.g: armado del tablero completo de ajedrez.
+Ejercicio 2.h: representación de la Apertura Italiana.
+Ejercicio 2.i: representación de la Apertura Escocesa.
 
 
 
@@ -186,14 +186,9 @@ Finalmente, fue una práctica útil para desarrollar lógica paso a paso, ya que
 
 ## Referencias
 https://www.w3schools.com/python/python_reference.asp
-https://docs.python.org/3/tutorial/
-https://virtualenv.pypa.io/en/latest/how-to/usage.html
 https://www.geeksforgeeks.org/python/python-pip/
-https://www.w3schools.com/python/python_lists.asp
 https://edwardo2013.github.io/CCOM_labs_python/LABS/ciclos.html
-https://www.w3schools.com/python/python_functions.asp
-https://www.w3schools.com/python/python_classes.asp
-https://www.geeksforgeeks.org/python/pygame-tutorial/
+https://docs.python.org/3/tutorial/
 
 
 
