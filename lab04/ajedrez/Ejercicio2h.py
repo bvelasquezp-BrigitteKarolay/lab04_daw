@@ -1,15 +1,77 @@
 from interpreter import draw
 from chessPictures import *
 
-tablero = square.negative().up(square).join(square.up(square.negative())).horizontalRepeat(4).verticalRepeat(4)
-fichas1 = rock.up(pawn).up(square.negative()).up(square).up(square.negative()).up(square).up(pawn.negative()).up(rock.negative())
-fichas2 = knight.up(pawn).up(square).up(square.negative()).up(square).up(square.negative()).up(pawn.negative()).up(square.negative())
-fichas3 = bishop.up(pawn).up(square.negative()).up(bishop).up(square.negative()).up(king.negative()).up(pawn.negative()).up(bishop.negative())
-fichas4 = queen.up(pawn).up(square).up(square.negative()).up(square).up(square.negative()).up(pawn.negative()).up(queen.negative())
-fichas5 = king.up(square).up(square.negative()).up(pawn).up(pawn.negative()).up(square).up(square.negative()).up(king.negative())
-fichas6 = square.up(pawn).up(knight).up(square.negative()).up(square).up(square.negative()).up(pawn.negative()).up(bishop.negative())
-fichas7 = square.negative().up(pawn).up(square.negative()).up(square).up(square.negative()).up(square).up(pawn.negative()).up(knight.negative())
-fichas8 = rock.up(pawn).up(square).up(square.negative()).up(square).up(square.negative()).up(pawn.negative()).up(rock.negative())
-fichasco = fichas1.join(fichas2).join(fichas3).join(fichas4).join(fichas5).join(fichas6).join(fichas7).join(fichas8)
 
-draw(tablero.under(fichasco))
+# negras atras
+fila8 = rock.negative() \
+    .join(square) \
+    .join(knight.negative()) \
+    .join(queen.negative()) \
+    .join(king.negative()) \
+    .join(bishop.negative()) \
+    .join(knight.negative()) \
+    .join(rock.negative())
+
+# peones negros
+fila7 = pawn.negative() \
+    .join(pawn.negative()) \
+    .join(pawn.negative()) \
+    .join(pawn.negative()) \
+    .join(square) \
+    .join(pawn.negative()) \
+    .join(pawn.negative()) \
+    .join(pawn.negative())
+
+# caballo negro en c6
+fila6 = square \
+    .join(square) \
+    .join(knight.negative()) \
+    .join(square.horizontalRepeat(5))
+
+# peon negro en e5
+fila5 = square.horizontalRepeat(4) \
+    .join(pawn.negative()) \
+    .join(square.horizontalRepeat(3))
+
+# alfil blanco en c4 y peon blanco en e4
+fila4 = square.horizontalRepeat(2) \
+    .join(bishop) \
+    .join(square) \
+    .join(pawn) \
+    .join(square.horizontalRepeat(3))
+
+# caballo blanco en f3
+fila3 = square.horizontalRepeat(5) \
+    .join(knight) \
+    .join(square.horizontalRepeat(2))
+
+# peones blancos
+fila2 = pawn \
+    .join(pawn) \
+    .join(pawn) \
+    .join(pawn) \
+    .join(square) \
+    .join(pawn) \
+    .join(pawn) \
+    .join(pawn)
+
+# blancas atras
+fila1 = rock \
+    .join(knight) \
+    .join(bishop) \
+    .join(queen) \
+    .join(king) \
+    .join(square) \
+    .join(square) \
+    .join(rock)
+
+figura = fila8 \
+    .under(fila7) \
+    .under(fila6) \
+    .under(fila5) \
+    .under(fila4) \
+    .under(fila3) \
+    .under(fila2) \
+    .under(fila1)
+
+draw(figura)
